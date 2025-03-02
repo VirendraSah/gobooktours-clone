@@ -146,13 +146,6 @@
     .Destination-megamenu{
         margin: 0px 10px;
     }
-    .india-destination-left{
-        width: -webkit-fill-available;
-    }
-    .india-destination-right{
-        min-width: 561px;
-        justify-content: space-around;
-    }
     .india-tour-place{
         width: 173px;
     }
@@ -166,5 +159,32 @@
         gap: 10px;
         padding: 10px;
     }
+
+    /* top trending india holiday destination */
+
+    .india-destination{
+        padding: 0px 5px;
+
+    }
+    .indian-hoiday-images-wrapper{
+        width: 100%;
+        gap: 20px;
+        border: 1px solid red;
+    }
+    .india-destination-left{
+        width: 25%;
+    }
+    .india-destination-right{
+        width: 75%;
+        justify-content: space-between;
+    }
+    .india-tour-place{
+        flex-basis: 30%;
+    }
+    .inner-img-text{
+        padding: 10px 10px 30px 10px;
+    }
+
+
 
 }

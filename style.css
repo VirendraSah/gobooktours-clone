@@ -822,6 +822,7 @@ aside h3 a {
 }
 
 /* Check our latest blog posts! */
+
 #latest-blog-post{
     padding: 50px 0px;
     background: #faf9f9;
@@ -872,16 +873,20 @@ aside h3 a {
     border-radius: 20px 20px 0px 0px;
     cursor: pointer;
 }
-.card-inner-content{
+.blog-card-inner-content{
+    width: 100%;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-.card-inner-content h2 a{
+.blog-card-inner-content h2 a{
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     color: rgb(33, 37, 41);
 }
-.card-inner-content p{
+.blog-card-inner-content p{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
