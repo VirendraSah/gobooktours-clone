@@ -18,6 +18,10 @@ header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.175);
 }
 
+.menuBarIcon {
+    display: none;
+}
+
 .content-wrapper {
     max-width: 1320px;
     height: auto;
@@ -61,11 +65,9 @@ header nav>ul>li {
     right: 10px;
     background: white;
     padding: 10px;
-
     display: flex;
     flex-direction: column;
     gap: 10px;
-
     opacity: 0;
     visibility: hidden;
     z-index: 9;
@@ -389,7 +391,7 @@ aside h3 a {
     gap: 20px;
 }
 
- .india-destination-left {
+.india-destination-left {
     width: 23%;
     height: 500px;
     background: url(images/rajasthan-tour-packages.jpeg);
@@ -428,7 +430,7 @@ aside h3 a {
     color: #efefef;
 }
 
-.india-destination-right{
+.india-destination-right {
     width: 77%;
     display: flex;
     flex-direction: row;
@@ -448,14 +450,14 @@ aside h3 a {
 .inner-img-text {
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.82),transparent);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.82), transparent);
     border-radius: 20px;
     padding: 0px 0px 30px 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     gap: 10px;
-    
+
 }
 
 .inner-img-text h3 a {
@@ -470,46 +472,54 @@ aside h3 a {
     font-size: 16px;
     color: #efefef;
 }
-.kerala-img{
+
+.kerala-img {
     background: url(images/kerala-tour-packages.jpeg) no-repeat;
     background-size: cover;
 
 }
-.Sikkim-img{
+
+.Sikkim-img {
     background: url(images/sikkim-tour-packages.jpeg) no-repeat;
     background-size: cover;
 
 }
-.Varanasi-img{
+
+.Varanasi-img {
     background: url(images/varanasi-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
-.Madhya-pradesh-img{
+
+.Madhya-pradesh-img {
     background: url(images/khajuraho-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
-.jammu-kashmir-img{
+
+.jammu-kashmir-img {
     background: url(images/kashmir-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
-.Karnataka-img{
+
+.Karnataka-img {
     background: url(images/karnataka-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
 
 /* International Destionation Tour */
 
-.inner-International-destination{
+.inner-International-destination {
     padding: 5px;
 }
-.inner-International-destination h2{
+
+.inner-International-destination h2 {
     font-weight: 500;
     font-size: 34px;
     color: rgb(33, 37, 41);
     line-height: 41px;
 }
-.International-tour-img{
-    width:100%;
+
+.International-tour-img {
+    width: 100%;
     padding: 20px 0px;
     display: flex;
     flex-direction: row;
@@ -517,12 +527,14 @@ aside h3 a {
     flex-wrap: wrap;
     row-gap: 10px;
 }
-.country-trip{
+
+.country-trip {
     width: 32%;
     height: 205px;
     border-radius: 20px;
 }
-.dark-shade{
+
+.dark-shade {
     width: 100%;
     height: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.82), transparent);
@@ -532,59 +544,69 @@ aside h3 a {
     padding: 20px;
     cursor: pointer;
 }
-.dark-shade h2{
+
+.dark-shade h2 {
     font-weight: 500;
     font-size: 24px;
     color: white;
 }
-.country-trip-one{
+
+.country-trip-one {
     background: url(images/india-tour-packages.jpeg) no-repeat center;
     background-size: cover;
 }
-.country-trip-two{
+
+.country-trip-two {
     background: url(images/nepal-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
-.country-trip-three{
+
+.country-trip-three {
     background: url(images/bhutan-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
-.country-trip-four{
+
+.country-trip-four {
     background: url(images/maldives-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
-.country-trip-five{
+
+.country-trip-five {
     background: url(images/sri-lanka-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
-.country-trip-six{
+
+.country-trip-six {
     background: url(images/thailand-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
 
 /* Browse tours by travel themes */
-#travel-theme{
+#travel-theme {
     padding: 40px 10px;
     background: #faf9f9;
 }
 
-.travel-theme-wrapper h2{
+.travel-theme-wrapper h2 {
     font-weight: 500;
     font-size: 31px;
 }
-.travel-theme-img-wrapper{
+
+.travel-theme-img-wrapper {
     margin: 20px 0px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 10px;
 }
-.travel-theme-card{
+
+.travel-theme-card {
     width: 32%;
     height: 250px;
     border-radius: 20px;
 }
-.travel-theme-content{
+
+.travel-theme-content {
     width: 100%;
     height: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.82), transparent);
@@ -595,53 +617,64 @@ aside h3 a {
     padding: 20px 20px 30px 20px;
     gap: 10px;
 }
-.travel-theme-content h2{
+
+.travel-theme-content h2 {
     font-size: 24px;
     font-weight: 500;
     color: white;
 }
-.travel-theme-content p{
+
+.travel-theme-content p {
     font-size: 16px;
     font-weight: 400;
     color: white;
 }
-.travel-theme-img-one{
+
+.travel-theme-img-one {
     background: url(images/wildlife-safari-tour-packages.jpeg) no-repeat center;
     background-size: cover;
 }
-.travel-theme-img-two{
+
+.travel-theme-img-two {
     background: url(images/in-depth-culture-tour-packages.jpeg) no-repeat center;
     background-size: cover;
 }
-.travel-theme-img-three{
+
+.travel-theme-img-three {
     background: url(images/religious-sites-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
-.travel-theme-img-four{
+
+.travel-theme-img-four {
     background: url(images/romantic-getaway-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
-.travel-theme-img-five{
+
+.travel-theme-img-five {
     background: url(images/fairs-and-festivals-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
-.travel-theme-img-six{
+
+.travel-theme-img-six {
     background: url(images/adventure-tour-packages.jpeg) no-repeat;
     background-size: cover;
 }
 
 /* Top Picks For You */
-#top-picks{
+#top-picks {
     background: #efeeee;
 }
-.top-picks-wrapper{
+
+.top-picks-wrapper {
     padding: 40px 10px;
 }
-.top-picks-wrapper h2{
+
+.top-picks-wrapper h2 {
     font-size: 34px;
     font-weight: 500;
 }
-.top-picks-cards-wrapper{
+
+.top-picks-cards-wrapper {
     padding: 40px 10px 60px 10px;
     display: flex;
     flex-direction: row;
@@ -649,34 +682,40 @@ aside h3 a {
     flex-wrap: wrap;
     row-gap: 10px;
 }
-.top-picks-card{
+
+.top-picks-card {
     width: 23%;
     height: auto;
     background-color: white;
     border-radius: 20px;
 }
-.top-picks-card img{
+
+.top-picks-card img {
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     cursor: pointer;
 }
-.top-picks-card-content{
+
+.top-picks-card-content {
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
 }
-.top-picks-card-content h3 a{
+
+.top-picks-card-content h3 a {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     color: rgb(33, 37, 41);
 }
-.hr{
+
+.hr {
     height: 1px;
     background: #efefef;
     margin: 10px 0px;
 }
-.day-btn{
+
+.day-btn {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -684,7 +723,8 @@ aside h3 a {
     padding: 20px 0px;
     gap: 10px;
 }
-.view-details-btn{
+
+.view-details-btn {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -696,18 +736,20 @@ aside h3 a {
 }
 
 /* Our Best Sellers */
-#Best-sellers{
+#Best-sellers {
     padding: 40px 0px;
 }
-.Best-sellers-wrapper{
+
+.Best-sellers-wrapper {
     padding: 10px 10px;
 }
 
-.Best-sellers-wrapper h2{
+.Best-sellers-wrapper h2 {
     font-size: 34px;
     font-weight: 500;
 }
-.Best-sellers-cards-wrapper{
+
+.Best-sellers-cards-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -716,12 +758,13 @@ aside h3 a {
     position: relative;
 }
 
-.Best-sellers-card{
+.Best-sellers-card {
     width: 32%;
     height: 250px;
     border-radius: 10px;
 }
-.dark-shade2{
+
+.dark-shade2 {
     width: 100%;
     height: 100%;
     background: linear-gradient(360deg, black, transparent);
@@ -732,7 +775,8 @@ aside h3 a {
     justify-content: space-between;
     cursor: pointer;
 }
-.usd{
+
+.usd {
     background: green;
     width: max-content;
     padding: 5px;
@@ -742,49 +786,58 @@ aside h3 a {
     line-height: 21px;
     color: white;
 }
-.Best-sellers-inner-content{
+
+.Best-sellers-inner-content {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.Best-sellers-inner-content h3{
+
+.Best-sellers-inner-content h3 {
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
     color: white;
     text-transform: capitalize;
 }
-.Best-sellers-inner-content p{
+
+.Best-sellers-inner-content p {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: rgb(173, 181, 189);
 }
-.Best-sellers-img-one{
+
+.Best-sellers-img-one {
     background: url(images/nepal-tour-packages\ \(2\).jpeg) no-repeat center;
     background-size: cover;
 }
-.Best-sellers-img-two{
+
+.Best-sellers-img-two {
     background: url(images/india-varanasi-tour-package.jpeg) no-repeat center;
     background-size: cover;
 }
-.Best-sellers-img-three{
+
+.Best-sellers-img-three {
     background: url(images/Tiger\ 1.jpeg) no-repeat center;
     background-size: cover;
 }
-.dots-btn-outer{
+
+.dots-btn-outer {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.dots-btn-inner{
+
+.dots-btn-inner {
     width: max-content;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.dots-btn-inner div{
+
+.dots-btn-inner div {
     width: 5px;
     height: 5px;
     border-radius: 100%;
@@ -792,70 +845,82 @@ aside h3 a {
     opacity: 0.25;
     cursor: pointer;
 }
-.dots-btn-inner div:nth-child(1){
+
+.dots-btn-inner div:nth-child(1) {
     opacity: 1;
 }
-.arrow-btn{
+
+.arrow-btn {
     border-radius: 50px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.arrow-btn img{
+
+.arrow-btn img {
     width: 60px;
     cursor: pointer;
 }
-.arrow-btn-one{
+
+.arrow-btn-one {
     position: absolute;
     top: 50%;
     left: -30px;
-    transform: translateY(-50%); 
+    transform: translateY(-50%);
 }
-.arrow-btn-two{
+
+.arrow-btn-two {
     position: absolute;
     top: 50%;
     right: -30px;
     transform: translatey(-50%);
 }
-.back-arrow-two{
+
+.back-arrow-two {
     transform: rotate(180deg);
 }
 
 /* Check our latest blog posts! */
 
-#latest-blog-post{
+#latest-blog-post {
     padding: 50px 0px;
     background: #faf9f9;
 }
-.blog-post-wrapper{
+
+.blog-post-wrapper {
     padding: 5px;
 }
-.blog-heading{
+
+.blog-heading {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.blog-heading h3{
+
+.blog-heading h3 {
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: rgb(33, 37, 41);
 }
-.blog-heading p{
+
+.blog-heading p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: rgb(33, 37, 41);
 }
-.blog-heading p span a{
+
+.blog-heading p span a {
     font-weight: 700;
     font-weight: 16px;
     line-height: 24px;
     color: rgb(33, 37, 41);
     text-decoration: underline;
 }
-.blog-cards-wrapper{
+
+.blog-cards-wrapper {
     margin: 20px 0px;
     display: flex;
     flex-direction: row;
@@ -863,18 +928,21 @@ aside h3 a {
     flex-wrap: wrap;
     row-gap: 10px;
 }
-.blog-card{
+
+.blog-card {
     width: 32%;
     height: auto;
     border: 1px solid #dee2e6;
     border-radius: 20px;
 }
-.blog-card img{
+
+.blog-card img {
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     cursor: pointer;
 }
-.blog-card-inner-content{
+
+.blog-card-inner-content {
     width: 100%;
     padding: 20px;
     display: flex;
@@ -882,59 +950,99 @@ aside h3 a {
     flex-wrap: wrap;
     gap: 10px;
 }
-.blog-card-inner-content h2 a{
+
+.blog-card-inner-content h2 a {
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     color: rgb(33, 37, 41);
 }
-.blog-card-inner-content p{
+
+.blog-card-inner-content p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: rgb(33, 37, 41);
 }
-#FAQs{
+
+#FAQs {
     border-bottom: 1px solid #dee2e6;
     padding: 50px 0px;
 }
-.FAQs-wrapper{
+
+.FAQs-wrapper {
     padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.FAQs-wrapper h2{
+
+.FAQs-wrapper h2 {
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: rgb(33, 37, 41);
 }
-.FAQs-QA{
+
+.FAQs-QA {
     border: 1px solid #dee2e6;
-    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.FAQs-Ques {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 10px;
 }
-.FAQs-QA h3{
+
+.FAqsEffectChange {
+    background: #5c1c4b;
+}
+
+.FAQs-QA h3 {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: rgb(33, 37, 41);
 }
-.FAQs-QA img{
-    width: 20px;
+
+.FAQs-Ques {
+    font-family: "FontAwesome";
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 24px;
+    color: rgba(33, 37, 41, 0.47);
 }
-#newsletter{
+
+.FaQs-Ans {
+    width: 100%;
+    padding: 15px 20px;
+    display: none;
+}
+
+.FaQs-Ans p {
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#newsletter {
     padding: 30px 0px;
 }
-.newsletter-wrapper{
+
+.newsletter-wrapper {
     padding: 20px;
 }
-.newsletter-wrapper form{
+
+.newsletter-wrapper form {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -942,9 +1050,10 @@ aside h3 a {
     flex-wrap: wrap;
     gap: 10px;
 }
-#newsletter-input{
+
+#newsletter-input {
     width: 565px;
-    padding:15px;
+    padding: 15px;
     border-radius: 10px;
     border: 1px solid #dee2e6;
     font-weight: 400;
@@ -952,13 +1061,15 @@ aside h3 a {
     color: rgb(33, 37, 41);
     line-height: 30px;
 }
-#newsletter-input::placeholder{
+
+#newsletter-input::placeholder {
     font-weight: 400;
     font-size: 20px;
     color: rgb(33, 37, 41);
     line-height: 30px;
 }
-.Subscribe-btn{
+
+.Subscribe-btn {
     padding: 15px 30px;
     border: none;
     border-radius: 10px;
@@ -969,14 +1080,17 @@ aside h3 a {
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
-.Subscribe-btn:hover{
+
+.Subscribe-btn:hover {
     background: #157347;
 }
-footer{
+
+footer {
     padding: 20px;
     background: black;
 }
-.review{
+
+.review {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -987,23 +1101,27 @@ footer{
     border-radius: 10px;
     margin: 20px 0px;
 }
-.review p{
+
+.review p {
     color: rgb(255, 255, 255);
     font-size: 22px;
     line-height: 33px;
     font-weight: 400;
 }
-.review img{
+
+.review img {
     height: 40px;
 }
-.footer-wrapper{
+
+.footer-wrapper {
     display: flex;
     flex-direction: row;
     padding-top: 40px;
     flex-wrap: wrap;
     gap: 50px;
 }
-.footer-navigation-wrapper{
+
+.footer-navigation-wrapper {
     width: 100%;
     height: auto;
     display: flex;
@@ -1012,42 +1130,49 @@ footer{
     row-gap: 15px;
     column-gap: 2%;
 }
-.footer-heading-menu{
+
+.footer-heading-menu {
     width: 23%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.footer-heading-menu h3{
+
+.footer-heading-menu h3 {
     font-size: 22px;
     line-height: 33px;
     font-weight: 500;
     color: white;
 }
-.footer-nav{
+
+.footer-nav {
     display: flex;
     flex-direction: column;
     gap: 5px;
     border: 1px solid red;
 }
-.footer-heading-menu ul{
+
+.footer-heading-menu ul {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-.footer-heading-menu ul li a{
+
+.footer-heading-menu ul li a {
     color: white;
 }
-.footer-heading-menu ul li::before{
+
+.footer-heading-menu ul li::before {
     font-family: "font Awesome 6 Free";
     content: "\f054";
     color: white;
     font-weight: 600;
     font-size: 13px;
     margin-right: 8px;
-    
+
 }
-.copyright{
+
+.copyright {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1058,28 +1183,32 @@ footer{
     flex-wrap: wrap;
     row-gap: 20px;
 }
-.copyright ul{
+
+.copyright ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5px;
 }
 
-.copyright p{
+.copyright p {
     color: white;
     text-align: center;
 }
-.payment-cards-wrapper{
+
+.payment-cards-wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 5px;
 }
-.payment-cards{
+
+.payment-cards {
     position: relative;
 }
-.payment-cards::after{
+
+.payment-cards::after {
     content: '';
     border-radius: 50%;
     width: 40px;
@@ -1088,12 +1217,13 @@ footer{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 1;
     opacity: 0;
     transition: 1s;
 }
-.payment-cards img{
+
+.payment-cards img {
     position: relative;
     z-index: 2;
     display: flex;
@@ -1101,28 +1231,34 @@ footer{
     justify-content: center;
 
 }
-.payment-cards:hover::after{
+
+.payment-cards:hover::after {
     opacity: 1;
 }
-.copyright p{
+
+.copyright p {
     color: white;
 }
-.copyright ul{
+
+.copyright ul {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.copyright ul li i{
+
+.copyright ul li i {
     color: white;
 }
-.follow-us{
+
+.follow-us {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 5px;
 }
-.follow-us ul li i:hover{
+
+.follow-us ul li i:hover {
     color: #0dcaf0;
     cursor: pointer;
 }

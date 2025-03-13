@@ -1,159 +1,265 @@
-@media only screen and (min-width:200px) and (max-width:575px){
-    .content-wrapper{
+@media only screen and (min-width:200px) and (max-width:575px) {
+    .content-wrapper {
         margin: 0px 10px;
     }
-    .header-wrapper{
+
+    header {
+        border: none;
+    }
+
+    .header-wrapper {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         padding: 10px 0px;
     }
-    header nav>ul{
+
+    .menuBarIcon {
+        display: block;
+        position: absolute;
+        right: 10px;
+        padding: 5px 10px;
+        background: #f8f9fa;
+        position: relative;
+    }
+
+    .changeMenuBarIcon {
+        position: absolute;
+        right: 10px;
+        width: max-content;
+        background: red;
+        border: none;
+    }
+
+    .nav-element {
+        position: absolute;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s linear;
+        background: white;
+        width: 80%;
+        min-height: 100vh;
+        z-index: 9;
+    }
+
+    .nav-elementVisible {
+        left: 0%;
+    }
+
+    .nav-element>ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav>ul {
         justify-content: space-around;
         gap: 0px;
     }
-    .Destination-megamenu{
-        margin: 0px 5px;
+
+    header nav>ul>li {
+        padding: 20px 10px 20px 10px;
     }
-    .megamenu-column-wrapper{
+
+    .DesItem {
+        width: max-content;
+        padding: 10px 20px 10px 0px;
+    }
+
+    .megamenu-column-wrapper {
         flex-wrap: wrap;
+        gap: 5px;
     }
-    .themes-dropdown{
-        min-width: 200px;
+
+    .Destination-megamenu {
+        position: static;
+        visibility: visible;
+        opacity: 1;
+        display: none;
+
     }
-    .banner-wrapper{
+
+    .ShowDesMega {
+        display: block !important;
+    }
+
+    .themeHeaderWrapper {
+        width: max-content;
+        padding: 10px 20px 10px 0px;
+    }
+
+    .themes-dropdown {
+        min-width: 100%;
+        position: static;
+        visibility: visible;
+        opacity: 1;
+        display: none;
+    }
+
+    .showThemeMega {
+        display: block !important;
+    }
+
+    /* End of Header Section */
+    .banner-wrapper {
         flex-wrap: wrap;
         justify-content: center;
         row-gap: 20px;
     }
-    #banner .left input{
-       width: 100%;
+
+    #banner .left input {
+        width: 100%;
     }
-    #banner .left i{
+
+    #banner .left i {
         min-width: 50px;
     }
-    #banner .left p{
+
+    #banner .left p {
         text-align: center;
         line-height: 45px;
     }
-    #banner .left{
+
+    #banner .left {
         width: 100%;
         height: 320px;
         padding: 0px 10px;
     }
-    #banner .left form{
+
+    #banner .left form {
         width: -webkit-fill-available;
     }
-    #banner .right{
+
+    #banner .right {
         width: -webkit-fill-available;
         height: 320px;
     }
 
     /* Cards -: Unique Experices /Holding your hand /So much Included-------- */
-    .cards-wrapper{
+    .cards-wrapper {
         gap: 20px;
     }
-    .card-content{
+
+    .card-content {
         width: 100%;
         flex-basis: auto;
         gap: 10px;
     }
-    .card-content{
+
+    .card-content {
         align-items: flex-start;
     }
 
     /* Top Trending Indian Holiday Destination--------- */
-    #International-destination{
+    #International-destination {
         padding: 30px 0px;
     }
-    .india-destination h2{
+
+    .india-destination h2 {
         font-size: 21px;
         line-height: 30px;
     }
-    .indian-hoiday-images-wrapper{
+
+    .indian-hoiday-images-wrapper {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .india-destination-left{
+
+    .india-destination-left {
         width: -webkit-fill-available;
     }
-    .india-destination-right{
+
+    .india-destination-right {
         width: auto;
         padding: 0px 10px;
     }
-    .india-tour-place{
+
+    .india-tour-place {
         width: -webkit-fill-available;
     }
-    .International-tour-img{
+
+    .International-tour-img {
         justify-content: center;
     }
-    .country-trip{
+
+    .country-trip {
         width: 94%;
     }
-    .inner-International-destination h2{
+
+    .inner-International-destination h2 {
         font-size: 21px;
         line-height: 30px;
     }
 
     /* Browse tours by travel themes */
-    .travel-theme-wrapper h2{
+    .travel-theme-wrapper h2 {
         font-size: 21px;
     }
-    .travel-theme-card{
+
+    .travel-theme-card {
         width: 100%;
     }
 
     /* Top Picks For You */
-    .top-picks-card{
+    .top-picks-card {
         width: 100%;
     }
 
     /* Our Best Sellers */
-    .Best-sellers-card{
+    .Best-sellers-card {
         width: 100%;
     }
 
     /* Our Best Sellers */
-   .Best-sellers-img-two ,.Best-sellers-img-three{
-    display: none;
-   }
+    .Best-sellers-img-two,
+    .Best-sellers-img-three {
+        display: none;
+    }
 
-   .blog-card{
-    width: 100%;
-   }
-   .footer-heading-menu{
-    width: 100%;
-   }
-   .footer-wrapper{
-    padding-top: 0px;
-   }
+    .blog-card {
+        width: 100%;
+    }
+
+    .footer-heading-menu {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        padding-top: 0px;
+    }
 }
 
-@media only screen and (min-width:576px) and (max-width:991px){
-    .banner-wrapper{
+@media only screen and (min-width:576px) and (max-width:991px) {
+    .banner-wrapper {
         margin: 0px 10px;
     }
-    #banner .left form{
+
+    #banner .left form {
         width: -webkit-fill-available;
         padding: 0px 10px;
     }
-    #banner .left input{
+
+    #banner .left input {
         width: -webkit-fill-available;
     }
-    #banner .left p{
+
+    #banner .left p {
         text-align: center;
         padding: 0px 20px;
     }
-    .Destination-megamenu{
+
+    .Destination-megamenu {
         margin: 0px 10px;
     }
-    .india-tour-place{
+
+    .india-tour-place {
         width: 173px;
     }
+
     /* Top Picks For You */
-    .top-picks-card{
+    .top-picks-card {
         width: 48%;
     }
-    .card-content{
+
+    .card-content {
         align-items: flex-start;
         justify-content: center;
         gap: 10px;
@@ -162,25 +268,30 @@
 
     /* top trending india holiday destination */
 
-    .india-destination{
+    .india-destination {
         padding: 0px 5px;
 
     }
-    .indian-hoiday-images-wrapper{
+
+    .indian-hoiday-images-wrapper {
         width: 100%;
         gap: 20px;
     }
-    .india-destination-left{
+
+    .india-destination-left {
         width: 25%;
     }
-    .india-destination-right{
+
+    .india-destination-right {
         width: 75%;
         justify-content: space-between;
     }
-    .india-tour-place{
+
+    .india-tour-place {
         flex-basis: 30%;
     }
-    .inner-img-text{
+
+    .inner-img-text {
         padding: 10px 10px 30px 10px;
     }
 
